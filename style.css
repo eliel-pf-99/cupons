@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #383838;
+}
+
+.ofc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 113.235mm;
+    width: 38.035mm;
+}
+
+.edit-img {
+    background-color: white;
+    height: 4cm;
+    width: 15cm;
+    position: relative;
+    transform: scale(1);
+
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.edit-img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 750px; */
+    height: 4cm;
+    width: 15cm;
+}
+
+.nome {
+    position: absolute;
+    top: 9.7%;
+    left: 104%;
+}
+
+.sobrenome {
+    position: absolute;
+    top: 24.8%;
+    left: -24%;
+    width: 250px;
+}
+
+.telefone {
+    position: absolute;
+    top: 42.5%;
+    left: 55.5%;
+    width: 200px;
+    font-size: 20px;
+}
+
+.televendas {
+    position: absolute;
+    top: 63.2%;
+    left: 77.5%;
+    font-size: 32px;
+}
+
+.loja {
+    position: absolute;
+    top: 66.8%;
+    left: 25.4%;
+    font-size: 32px;
+}
+
+.ecommerce {
+    position: absolute;
+    top: 79.3%;
+    left: 77.4%;
+    font-size: 32px;
+    z-index: 99;
+}
+
+.none {
+    display: none;
+}
+
+.numero {
+    position: absolute;
+    top: 72%;
+    left: 130%;
+}
+
+.selected-box {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    z-index: 99;
+    position: absolute;
+}
+
+
+/* ============================== */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.a4 {
+    width: 21cm;
+    height: 29.7cm;
+    background-color: white;
+    position: relative;
+    margin: auto;
+}
+
+.client {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    color: white;
+    justify-content: center;
+}
+
+.clientes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

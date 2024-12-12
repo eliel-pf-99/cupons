@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div class="ofc">
+        <div class="edit-img">
+            <img src="./cupom.svg" alt="" srcset="">
+            <p class="nome">Matheus</p>
+            <p class="sobrenome">Pereira Paiter Correia Lima Ferreira</p>
+            <p class="telefone">(41) 9 9999-9999</p>
+            <p class="televendas"><ion-icon name="checkmark-circle-outline"></ion-icon></p>
+            <p class="numero">39999</p>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <form>
+            <input type="text" id="name" placeholder="Nome">
+            <input type="text" id="sobrenome" placeholder="Sobrenome">
+            <input type="telefone" id="telefone" placeholder="Telefone">
+            <input type="number" id="pedido" placeholder="Pedido">
+            <input type="number" id="valor" placeholder="Valor">
+            <button id="add">Add</button>
+            <button id="make">Gerar</button>
+        </form>
+        <div class="clientes">
+            <div class="client">
+                <p id="c_name"></p>
+                <p id="c_last_name"></p>
+                <p id="c_tel"></p>
+                <p id="c_order"></p>
+                <p id="c_value"></p>
+                <p id="c_number"></p>
+            </div>
+        </div>
+        <div class="printArea"></div>
+        <button onclick="print_cupons()">Print</button>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="./create_cupom.js"></script>
+    <script src="./elements/cupom.js"></script>
+    <script src="./elements/align.js"></script>
+    <script src="./elements/form.js"></script>
+    <script src="./elements/list.js"></script>
+    <script>
+        // constructor('Pietra', 'Bontorin', '(41) 99812-2034', 'loja', '39183')
+        // let top_ = 0;
+        // let left_ = -10;
+        // //first column
+        // for (var i = 0; i < 6; i++) {
+        //     set_position(top_, left_)
+        //     document.querySelector('.a4').innerHTML += build_cupom();
+        //     top_ += 14;
+        // }
+        // constructor('Sandra', 'Patricia T. Ramos', '(88) 99934-9429', 'ecommerce', '39199')
+        // set_position(top_, left_)
+        // document.querySelector('.a4').innerHTML += build_cupom();
+
+
+        // //second column
+        // left_ = 30;
+
+
+
+        // for (var i = 0; i < 2; i++) {
+        //     let top_ = 16;
+        //     set_position(top_, left_)
+        //     set_rotation(true);
+        //     document.querySelector('.a4').innerHTML += build_cupom();
+        //     left_ += 20;
+        //     set_rotation(false);
+        //     constructor('Jasmine', 'Valéria Vieira', '(41) 99979-4468', 'ecommerce', '39203')
+        // }
+
+        // left_ = 30;
+        // for (var i = 0; i < 2; i++) {
+        //     let top_ = 60;
+        //     set_position(top_, left_)
+        //     set_rotation(true);
+        //     document.querySelector('.a4').innerHTML += build_cupom();
+        //     left_ += 20;
+        //     set_rotation(false);
+        //     constructor('Nicole', 'Alessandra Rodriguez', '(41) 99876-7872', 'ecommerce', '39191')
+        // }
+
+        // build_page();
+    </script>
+
+</body>
+
+</html>
