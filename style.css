@@ -65,8 +65,8 @@ p {
 
 .televendas {
     position: absolute;
-    top: 63.2%;
-    left: 77.5%;
+    top: 60.2%;
+    left: 75.3%;
     font-size: 32px;
 }
 
@@ -79,8 +79,8 @@ p {
 
 .ecommerce {
     position: absolute;
-    top: 79.3%;
-    left: 77.4%;
+    top: 76.3%;
+    left: 75.3%;
     font-size: 32px;
     z-index: 99;
 }
@@ -98,9 +98,10 @@ p {
 .selected-box {
     width: 10px;
     height: 10px;
-    background-color: black;
-    z-index: 99;
-    position: absolute;
+    font-size: 12px;
+    font-weight: 900;
+    /* z-index: 99;
+    position: absolute; */
 }
 
 
