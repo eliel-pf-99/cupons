@@ -17,6 +17,7 @@ let last_name = document.querySelector("#sobrenome")
 let cel = document.querySelector("#telefone")
 let order = document.querySelector("#pedido")
 let value = document.querySelector("#valor")
+let sector = document.querySelector("#setor")
 
 const cupons = [];
 
@@ -27,8 +28,9 @@ function catch_cupom() {
     const pedido = order.value
     const valor = value.value
     const quantidade = how_much_cupons(valor);
+    const setor = sector.value;
 
-    const cupom = { nome, sobrenome, tel, pedido, valor, quantidade };
+    const cupom = { nome, sobrenome, tel, pedido, valor, quantidade, setor };
     cupons.push(build_final(cupom));
 
     name_.value = '';
