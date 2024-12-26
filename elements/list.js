@@ -87,7 +87,7 @@ function how_much_cupons(valor) {
 }
 
 function build_final(c) {
-    return fill_cupons(cupomBuilder(c.nome, c.sobrenome, c.tel, c.pedido), how_much_cupons(c.valor));
+    return fill_cupons(cupomBuilder(c.nome, c.sobrenome, c.tel, c.pedido, c.setor), how_much_cupons(c.valor));
 }
 
 function fill_cupons(cupom, times) {
